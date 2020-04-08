@@ -1,0 +1,98 @@
+Codepen Link:
+
+https://codepen.io/Danger_Paws/pen/LYpPVeN?editors=1100
+
+Questions
+
+1. What is Semantic HTML? 
+    Semantic HTML is HTML that has its meaning or purpose conveyed by its naming convention.
+2. What is HTML used for? 
+    HTML is used to display content from the web through your interent browser.
+3. What is an attribute and where do we put it? 
+    An attribute is additional information about an HTML element and is placed inside the HTML tag.
+4. What is the h1 tag used for? How many times should I use it on a page?
+    An h1 tag is a heading tag given to the most prominent title head on the page. It should be used once per page.
+5. Name two tags that have required attributes
+    Two tags with required attributes are the anchor tag <a> and the image tag <img>.
+6. What do we put in the head of our HTML document? 
+    The head of our HTML document contains data that is not displayed to the user but used by the browser.  
+	This includes meta data like character sets, keywords for search engine optimization, the author / owner / 
+	contact information of the site, proper viewing frames, and links to things like CSS style sheets among others.
+7. What is an id? 
+    An id is a unique identifier attribute added to an HTML element.
+8. What elements can I add an id to? 
+    You can add an id to any element.
+9. How many times can I use the same id on a page? 
+    An id can only be used once per page.
+10. What is a class?
+    A class is an attribute added to an HTML element.
+11. What elements can I add a class to? 
+    You can add a class to any HTML element.
+12. How many times can I use the same class on a page? 
+    A class can be used multiple times per page.
+13. How do I get my link to open in a new tab?
+    Add target="_blank" to the link tag.
+14. What is the alt attribute in the image tag used for? 
+    The alt attribute is used in an image tag as what to show if the current image can not be displayed as well as accessability features.
+15. How do I reference an id?
+    An id is referenced by the # symbol followed by the name of the id in the element you are calling.
+16. What is the difference between a section and a div
+    A section and div both provide containers for your HTML code. A section is a semantic element where as a div is
+	a non-semantic element.
+17. What is CSS used for? 
+    CSS is used to provide styling to HTML elements.
+18. How to we select an element? Example - every h2 on the page
+    An element is selected by typing the name of the element followed by {}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class is an identifier attribute that can be used multiple times while an id is a unique identifier that
+	can only be used once. You might use a class on multiple elements that you want to all have the same
+	styling, for example links in a nav bar. An id might be used on something you want to have its own individual
+	style, such as a Buy Now! button you want to stand out from everything else.
+20. How do we select classes in CSS?
+    Classes are selected in CSS by a . followed by the class name {}
+21. How do we select a p element with a single class of “human””?
+    Call p .human {} in your style sheet.
+22. What is a parent child selector? When would this be useful? 
+    A parent child selector selects an element that is a descendant of the parent element. This is useful because it holds
+	greater specificity weight than calling an element alone.
+23. How do you select all links within a div with the class of sidebar?
+    We select a p element with a single class of 'human' by typing .human p {} in our css style sheet.
+24. What is a pseudo selector?
+    A psuedo selector is a selector that effects elements that are in a certain state, such as being hovered over.
+25. What do we use the change the spacing between lines?
+    In css the property line-height to change spacing between lines.
+26. What do we use to change the spacing between letters?
+    In css the property letter-spacing is used to change the space between letters.
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    In css the text-transform property is used along with values of uppercase (for all capital letters), lowercase
+	(for all lower case letters), and capitalize (to capitalize a letter).
+28. How do I add a 1px border around my div that is dotted and black?
+    In css call your div and use 'border' property with values 'dotted' 'black'
+29. How do I select everything on the page? 
+    Use the universal selector * {}
+30. How do I write a comment in CSS?
+    In css use /* comment here */ to write a comment.
+31. How do I find out what file I am in, when I am using the command line? 
+    In the command line type pwd to see what file you are in.
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    In the command line type ls to see a list of files/folders in the current folder.
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    In the command line type rm <filename> to remove a file. You should be careful because there is no
+	undo feature if you make a mistake.
+34. Why should I use version control? 
+    You should use version control because it allows multiple people to work on the same project simultaneously, save any changes, merge changes, and be able to revert back
+    to previous versions.
+35. How often should I commit to github?
+    You should commit to github after any major change for sure, but as often as possible.
+36. What is the command we would use to push our repo up to github? 
+    The command to push your repo up to github is git push -u origin branch-name
+37. Walk me through Lambda's git flow.
+    Fork your repo, add any collaborators, clone your repo, branch repo, make changes, add/commit/push to github, create pull request.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        Structurally block elements create a line break while inline elements do not.
+    2. What happens when an element is positioned absolutely?
+        Absolute positioned elements position themselves to the nearest anchored ancestor instead of positioning relative to the viewing area. 
+    
